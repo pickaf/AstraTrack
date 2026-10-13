@@ -14,10 +14,10 @@
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23eed2a0' d='M32 0l6 25 26 7-26 6-6 26-7-26L0 32l25-7z'/%3E%3C/svg%3E"
     />
-    <script type="module" crossorigin src="./assets/index-BC9jXKQe.js"></script>
+    <script type="module" crossorigin src="./assets/index-BfVSMGE_.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/three-Dlne4HgA.js">
     <link rel="modulepreload" crossorigin href="./assets/astronomy-BDZgh8MG.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BISpON-B.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DMnBDInv.css">
   </head>
   <body>
     <div id="app">
@@ -86,7 +86,7 @@
             class="quiet-button"
             aria-label="Torna alla galassia"
           >
-            <span aria-hidden="true">↶</span><span>Torna alla galassia</span>
+            <svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 4 10l5 5M4 10h9a7 7 0 0 1 7 7v2" /></svg><span>Torna alla galassia</span>
           </button>
           <div class="zoom-tools">
             <button id="zoom-out" aria-label="Allontana">−</button
@@ -129,10 +129,17 @@
       </main>
     </div>
     <dialog id="info-dialog">
+      <div class="dialog-panel">
       <button id="close-dialog" class="icon-button close" aria-label="Chiudi">
         ×
       </button>
       <div id="dialog-content"></div>
+      </div>
+    </dialog>
+    <dialog id="orientation-notice" aria-labelledby="orientation-title" aria-describedby="orientation-message">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="11" width="24" height="42" rx="5"/><path d="M30 46h8M15 38A23 23 0 0 1 18 14M9 16l9-2 2 9M51 26a23 23 0 0 1-3 24m9-2-9 2-2-9"/></svg>
+      <h2 id="orientation-title">Ruota il telefono</h2>
+      <p id="orientation-message">Per esplorare le stelle, tieni il telefono in verticale.</p>
     </dialog>
     <div
       id="announcement"
