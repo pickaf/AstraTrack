@@ -1,0 +1,105 @@
+three
+The MIT License
+
+Copyright © 2010-2025 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Astronomy Engine
+Astronomy library for JavaScript (browser and Node.js).
+    https://github.com/cosinekitty/astronomy
+
+    MIT License
+
+    Copyright (c) 2019-2023 Don Cross <cosinekitty@gmail.com>
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+HYG Stellar Database v4.1 — David Nash / Astronexus
+https://github.com/astronexus/HYG-Database
+Source: hyg/CURRENT/hygdata_v41.csv, retrieved 2026-10-12.
+Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+AstraTrack adaptation: selected stars (magnitude <= 8 over the entire sky), reduced fields and rounded coordinates.
+The adapted catalogue is licensed CC BY-SA 4.0 and available at sky-catalogue.json.
+Rows: [HIP identifier (negative HYG id if absent), RA degrees J2000,
+declination degrees J2000, V magnitude, proper name].
+The gifted star's separate position and V magnitude come from SIMBAD HIP 46684.
+
+Stellarium western sky culture — Stellarium's team
+https://github.com/Stellarium/stellarium-skycultures/tree/master/western
+Retrieved 2026-10-12. Upstream license: Text and data: CC BY-SA.
+https://creativecommons.org/licenses/by-sa/
+AstraTrack adaptation: 88 constellation line figures, Italian names,
+HIP identifiers only; no illustrations or boundary data used in the app.
+Adapted data remains CC BY-SA, available at sky-constellations.json.
+Original data and license description archived in research/sources/.
+Additional HYG v4.1 adaptation: Rigel, Polaris and Vega coordinates and distances,
+converted to this scene's galactic frame in galaxy-landmarks.json (CC BY-SA 4.0).
+Sagittarius A* reference: ESO https://www.eso.org/public/news/eso2208-eht-mw/
+Additional named stars in galaxy-landmarks.json use the same source/license.
+
+Gaia DR3 local star field — ESA/Gaia/DPAC
+https://www.cosmos.esa.int/web/gaia/data-release-3
+Gaia data are open and free to use with credit to ESA/Gaia/DPAC.
+This work has made use of data from the European Space Agency (ESA) mission
+Gaia, processed by the Gaia Data Processing and Analysis Consortium (DPAC).
+Funding for DPAC has been provided by national institutions, in particular
+the institutions participating in the Gaia Multilateral Agreement.
+References: Gaia Collaboration et al. (2016), A&A 595, A1;
+Gaia Collaboration et al. (2023), A&A 674, A1 (Gaia DR3).
+Retrieved 2026-10-13 from the ESA Gaia Archive TAP service.
+AstraTrack adaptation: 47,503 sources; G absolute magnitude estimate <= 1.5,
+parallax >= 1.6 mas, parallax_over_error >= 10; within 1300 light years
+of the midpoint between the Sun and the gifted binary.
+Distances use inverse parallax; no extinction, zero-point or proper-motion
+correction. Catalogue positions at Gaia epoch J2016.0, mapped to scene axes.
+Not a complete census or an unbiased measure of stellar density.
+Adapted data: galaxy-local-stars.json. Rows: [x, y, z in light years, absolute G magnitude estimate].
+Positions rounded to 0.0001 light years (storage precision, not accuracy).
+Original query, rows and per-row source IDs are retained in research/sources/.
+
+HYG v4.1 additional adaptation: galaxy-sky-references.json (CC BY-SA 4.0,
+David Nash / Astronexus). Muscida, Dubhe, Merak, Talitha, Giausar, Phecda, Megrez, Menkalinan and Almaaz: catalogue RA/Dec J2000
+projected at the gifted binary distance for illustrative context only.
+The p coordinates are display positions, not physical distances.
+
+
+EB Garamond — The EB Garamond Project Authors
+https://github.com/google/fonts/tree/main/ofl/ebgaramond
+SIL Open Font License 1.1; full license: fonts/EB-Garamond-OFL.txt
+Variable normal and italic Latin/Latin Extended WOFF2 subsets from Google Fonts,
+retrieved 2026-10-13. Self-hosted, with no runtime requests to Google Fonts.

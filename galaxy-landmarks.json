@@ -1,0 +1,185 @@
+[
+  {
+    "id": "polaris",
+    "name": "Stella Polare",
+    "hip": "11767",
+    "ra": 37.94625,
+    "dec": 89.264109,
+    "distanceLy": 432.56815748840205,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      26212.48356945457,
+      192.75080952793425,
+      323.7484656505452
+    ],
+    "text": "Una stella di riferimento, a circa 433 anni luce dal Sole secondo il catalogo HYG.",
+    "start": 0.32,
+    "curiosity": "Indica il nord, ma non è la stella più luminosa del cielo.",
+    "curiositySource": "https://science.nasa.gov/solar-system/skywatching/what-is-the-north-star-and-how-do-you-find-it/"
+  },
+  {
+    "id": "rigel",
+    "name": "Rigel",
+    "hip": "24436",
+    "ra": 78.63447,
+    "dec": -8.20164,
+    "distanceLy": 862.8476756744831,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      26681.00575764853,
+      -367.99370819112386,
+      -381.20585016255313
+    ],
+    "text": "Una stella di riferimento, a circa 863 anni luce dal Sole secondo il catalogo HYG.",
+    "start": 0.32,
+    "curiosity": "La sua luce illumina una nube chiamata «Testa di Strega».",
+    "curiositySource": "https://www.nasa.gov/image-article/witch-head-nebula/"
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "hip": "91262",
+    "ra": 279.2346,
+    "dec": 38.783692,
+    "distanceLy": 25.0445697744499,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      25990.930281985933,
+      8.251609737254897,
+      21.837619537776007
+    ],
+    "text": "Una stella di riferimento, a circa 25 anni luce dal Sole secondo il catalogo HYG.",
+    "start": 0.76,
+    "curiosity": "Fra circa 13.000 anni sarà lei a indicare il nord, al posto della Polare.",
+    "curiositySource": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question64.html"
+  },
+  {
+    "id": "sgr-a",
+    "name": "Sagittarius A*",
+    "p": [
+      0,
+      0,
+      0
+    ],
+    "start": 0,
+    "text": "Il buco nero al centro della Via Lattea. Il punto indica la sua posizione nel nostro modello della galassia, non la luce del buco nero: il buco nero stesso è oscuro.",
+    "source": "https://www.eso.org/public/news/eso2208-eht-mw/"
+  },
+  {
+    "id": "aldebaran",
+    "name": "Aldebaran",
+    "hip": "21421",
+    "ra": 68.98015500000001,
+    "dec": 16.509301,
+    "distanceLy": 66.6441849681964,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      26062.5169,
+      -23.0643,
+      -1.058
+    ],
+    "start": 0.6,
+    "text": "Una stella di riferimento, a circa 67 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "La sonda Pioneer 10 viaggia nella sua direzione.",
+    "curiositySource": "https://science.nasa.gov/mission/pioneer-10/"
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "hip": "24608",
+    "ra": 79.17225,
+    "dec": 45.997991,
+    "distanceLy": 42.802806071081804,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      26040.7114,
+      3.408,
+      12.7691
+    ],
+    "start": 0.76,
+    "text": "Una stella di riferimento, a circa 43 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "Sembra un solo punto luminoso, ma nasconde quattro stelle: due coppie che danzano insieme.",
+    "curiositySource": "https://chandra.harvard.edu/edu/RFTS_2020_Webinar_Transcript.pdf"
+  },
+  {
+    "id": "betelgeuse",
+    "name": "Betelgeuse",
+    "hip": "27989",
+    "ra": 88.792935,
+    "dec": 7.407063,
+    "distanceLy": 497.94881264938857,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      26462.8399,
+      -77.5367,
+      -166.4943
+    ],
+    "start": 0.34,
+    "text": "Una stella di riferimento, a circa 498 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "È enorme, ma la sua superficie è più fredda di quella del Sole.",
+    "curiositySource": "https://science.nasa.gov/universe/what-is-betelgeuse-inside-the-strange-volatile-star/"
+  },
+  {
+    "id": "arcturus",
+    "name": "Arturo",
+    "hip": "69673",
+    "ra": 213.91545,
+    "dec": 19.18241,
+    "distanceLy": 36.717054219577506,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      25987.3569,
+      34.3037,
+      3.399
+    ],
+    "start": 0.76,
+    "text": "Una stella di riferimento, a circa 37 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "Per trovarla, prolunga con lo sguardo la curva del manico del Grande Carro.",
+    "curiositySource": "https://www.jpl.nasa.gov/videos/whats-up-for-april-2011/"
+  },
+  {
+    "id": "antares",
+    "name": "Antares",
+    "hip": "80763",
+    "ra": 247.35191999999998,
+    "dec": -26.432002,
+    "distanceLy": 553.7460149644162,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      25470.5582,
+      143.916,
+      -74.9283
+    ],
+    "start": 0.34,
+    "text": "Una stella di riferimento, a circa 554 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "Al posto del Sole, si estenderebbe oltre l’orbita di Marte.",
+    "curiositySource": "https://www.almaobservatory.org/en/press-releases/supergiant-atmosphere-of-antares-revealed-by-radio-telescopes/"
+  },
+  {
+    "id": "altair",
+    "name": "Altair",
+    "hip": "97649",
+    "ra": 297.69582,
+    "dec": 8.868322,
+    "distanceLy": 16.7301913941215,
+    "source": "https://github.com/astronexus/HYG-Database",
+    "catalogue": "HYG v4.1; distance estimate",
+    "p": [
+      25988.8851,
+      -2.5911,
+      12.233
+    ],
+    "start": 0.76,
+    "text": "Una stella di riferimento, a circa 17 anni luce dal Sole secondo il catalogo HYG.",
+    "curiosity": "Gira così velocemente su sé stessa da essere un po’ schiacciata ai poli.",
+    "curiositySource": "https://science.nasa.gov/photojournal/altair/"
+  }
+]

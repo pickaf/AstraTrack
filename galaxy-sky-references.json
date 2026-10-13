@@ -1,0 +1,171 @@
+[
+  {
+    "id": "sky-muscida",
+    "name": "Muscida",
+    "hip": "41704",
+    "ra": 127.566465,
+    "dec": 60.718169,
+    "start": 0.37,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26751.830251581003,
+      585.5738162019898,
+      335.14904489301944
+    ],
+    "text": "Una stella dell’Orsa Maggiore, nella stessa zona del cielo di Silvestrino e Chérie.",
+    "source": "https://github.com/astronexus/HYG-Database"
+  },
+  {
+    "id": "sky-dubhe",
+    "name": "Dubhe",
+    "hip": "54061",
+    "ra": 165.932325,
+    "dec": 61.751033,
+    "start": 0.43,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26506.584766287197,
+      785.1598029574823,
+      383.8831359827258
+    ],
+    "text": "Una delle stelle del Grande Carro, riconoscibile a occhio nudo.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Insieme a Merak aiuta a trovare la Stella Polare.",
+    "curiositySource": "https://www.rasc.ca/sites/default/files/World%20Asterisms%20Project%20Handbook%20V%202024.4.pdf"
+  },
+  {
+    "id": "sky-merak",
+    "name": "Merak",
+    "hip": "53910",
+    "ra": 165.460155,
+    "dec": 56.382427,
+    "start": 0.49,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26499.929235569387,
+      825.5105067534687,
+      298.4517823184506
+    ],
+    "text": "Una delle stelle del Grande Carro, riconoscibile a occhio nudo.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Insieme a Dubhe aiuta a trovare la Stella Polare.",
+    "curiositySource": "https://www.rasc.ca/sites/default/files/World%20Asterisms%20Project%20Handbook%20V%202024.4.pdf"
+  },
+  {
+    "id": "sky-talitha",
+    "name": "Talitha",
+    "hip": "44127",
+    "ra": 134.80242,
+    "dec": 48.041826,
+    "start": 0.46,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26755.902219947573,
+      660.5676992173571,
+      112.8381687880277
+    ],
+    "text": "Una stella dell’Orsa Maggiore, visibile a occhio nudo.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Appartiene all’Orsa Maggiore, ma è fuori dalle sette stelle del Grande Carro.",
+    "curiositySource": "https://github.com/astronexus/HYG-Database"
+  },
+  {
+    "id": "sky-giausar",
+    "name": "Giausar",
+    "hip": "56211",
+    "ra": 172.851105,
+    "dec": 69.331076,
+    "start": 0.52,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26476.618699996994,
+      729.1642562671293,
+      511.4923322025451
+    ],
+    "text": "Una stella della costellazione del Drago, nella stessa zona del cielo della vostra stella.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Da Cefalù resta sempre sopra l’orizzonte.",
+    "curiositySource": "https://github.com/astronexus/HYG-Database"
+  },
+  {
+    "id": "sky-phecda",
+    "name": "Phecda",
+    "hip": "58001",
+    "ra": 178.45752,
+    "dec": 53.69476,
+    "start": 0.56,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26375.112782627617,
+      886.7981620030174,
+      305.53187048793114
+    ],
+    "text": "Una delle sette stelle che disegnano il Grande Carro.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Segna uno dei quattro angoli della coppa del Grande Carro.",
+    "curiositySource": "https://calgary.rasc.ca/stellarmagnitudes.htm"
+  },
+  {
+    "id": "sky-megrez",
+    "name": "Megrez",
+    "hip": "59774",
+    "ra": 183.85629,
+    "dec": 57.032617,
+    "start": 0.6,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26347.650868435772,
+      869.6608184739132,
+      378.54885839684664
+    ],
+    "text": "Una delle stelle del Grande Carro, visibile a occhio nudo sotto un cielo sufficientemente buio.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "È la meno luminosa delle sette stelle del Grande Carro.",
+    "curiositySource": "https://github.com/astronexus/HYG-Database"
+  },
+  {
+    "id": "sky-menkalinan",
+    "name": "Menkalinan",
+    "hip": "28360",
+    "ra": 89.882235,
+    "dec": 44.947433,
+    "start": 0.44,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26969.83329901463,
+      182.5295127527012,
+      215.81624777360094
+    ],
+    "text": "Una stella dell’Auriga, visibile a occhio nudo.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Anche questo punto luminoso nasconde due stelle che si eclissano a vicenda.",
+    "curiositySource": "https://ntrs.nasa.gov/api/citations/19690005198/downloads/19690005198.pdf"
+  },
+  {
+    "id": "sky-almaaz",
+    "name": "Almaaz",
+    "hip": "23416",
+    "ra": 75.492225,
+    "dec": 43.823308,
+    "start": 0.51,
+    "skyReference": true,
+    "placement": "sky-direction-at-binary-distance",
+    "p": [
+      26964.72835786675,
+      20.785104147432037,
+      298.8937581812803
+    ],
+    "text": "Una stella dell’Auriga, visibile a occhio nudo.",
+    "source": "https://github.com/astronexus/HYG-Database",
+    "curiosity": "Ogni 27 anni circa si affievolisce per quasi due anni, prima di tornare a brillare.",
+    "curiositySource": "https://www.nasa.gov/image-article/mystery-of-fading-star/"
+  }
+]

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#081321" />
+    <meta
+      name="description"
+      content="Un piccolo viaggio nella Via Lattea, dal Sole a Silvestrino e Chérie."
+    />
+    <title>AstraTrack · Silvestrino e Chérie</title>
+    <link rel="preload" href="./fonts/eb-garamond-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23eed2a0' d='M32 0l6 25 26 7-26 6-6 26-7-26L0 32l25-7z'/%3E%3C/svg%3E"
+    />
+    <script type="module" crossorigin src="./assets/index-BC9jXKQe.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three-Dlne4HgA.js">
+    <link rel="modulepreload" crossorigin href="./assets/astronomy-BDZgh8MG.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BISpON-B.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a class="brand" href="./" aria-label="AstraTrack, vista iniziale"
+          ><svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="m24 1 3 18 17 5-17 4-3 19-4-19L2 24l18-5Z" />
+            <path
+              d="m8 8 16 12L39 8 28 24l12 15-16-11L9 40l11-16Z"
+              opacity=".55"
+            /></svg
+          ><span>ASTRA<span class="brand-gap">TRACK</span></span></a
+        ><div class="header-actions"><button id="details" class="icon-button" aria-label="Scopri di più">i</button><button id="help" class="icon-button" aria-label="Come esplorare">?</button></div>
+      </header>
+      <main>
+        <div class="heading">
+          <span id="eyebrow" class="eyebrow">UN PICCOLO VIAGGIO, INSIEME</span>
+          <h1 id="title">La Via Lattea</h1>
+          <p id="subtitle">
+            Un universo da esplorare. Una stella da ritrovare.
+          </p>
+        </div>
+        <section
+          id="universe"
+          aria-label="Mappa tridimensionale interattiva"
+          tabindex="0"
+          aria-describedby="gesture-help"
+        >
+          <canvas
+            id="space"
+            aria-label="Galassia e sistemi stellari in tre dimensioni"
+          ></canvas>
+          <div id="labels"></div>
+          <svg id="leaders" aria-hidden="true"></svg>
+          <div id="loading">
+            <span class="loading-star">✧</span>
+            <p>Accendiamo le stelle…</p>
+          </div>
+          <div id="fallback" hidden>
+            <h2>Il viaggio continua, anche qui.</h2>
+            <p>
+              La vista 3D non è disponibile su questo browser. Silvestrino e
+              Chérie si trova nella Via Lattea, a circa mille anni luce dal
+              Sole.
+            </p>
+            <p>
+              È un sistema di due componenti che si muovono attorno a un centro
+              comune in circa 204 giorni.
+            </p>
+            <button id="fallback-info">Scopri la stella</button>
+          </div>
+        </section>
+        <section id="sky-view" hidden aria-label="Mappa del cielo stellato">
+          <div class="sky-options"><button id="sky-location">Scegli il luogo <span aria-hidden="true">⌄</span></button><button id="sky-time" aria-label="Scegli giorno e ora">Adesso</button><button id="sky-bodies">Luna e pianeti</button></div>
+          <div id="sky-map" tabindex="0" aria-label="Mappa stellare: trascina o usa le frecce per esplorare, più e meno per lo zoom" aria-describedby="gesture-help">
+            <canvas id="sky-canvas" aria-label="Stelle e costellazioni nelle loro posizioni di catalogo"></canvas>
+            <button id="sky-target" class="sky-target" aria-label="Silvestrino e Chérie — apri il sistema binario">Silvestrino e Chérie</button>
+            <button id="sky-recenter" hidden>Ritrova la vostra stella ↗</button>
+            <p id="sky-orientation">Mappa delle stelle · nord celeste in alto</p>
+          </div>
+          <div class="sky-caption"><p id="sky-status" role="status">Un punto nell’Orsa Maggiore.</p><p id="sky-observing">Scegli un luogo per sapere dove cercarla.</p><p class="sky-faint">La evidenziamo sulla mappa: a occhio nudo è troppo debole.</p></div>
+        </section>
+        <div class="view-tools">
+          <button
+            id="home"
+            class="quiet-button"
+            aria-label="Torna alla galassia"
+          >
+            <span aria-hidden="true">↶</span><span>Torna alla galassia</span>
+          </button>
+          <div class="zoom-tools">
+            <button id="zoom-out" aria-label="Allontana">−</button
+            ><button id="zoom-in" aria-label="Avvicina">+</button>
+          </div>
+        </div>
+        <div class="bottom-panel">
+          <div id="sky-toolbar"></div>
+          <p id="gesture-help">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m3 8 5-5m-5 0h5v5M21 16l-5 5m0-5v5h5M9 15l6-6" /></svg
+            ><span>Avvicina con due dita. Trascina per esplorare.</span>
+          </p>
+          <div id="playback" hidden>
+            <button id="play" class="play-button">
+              <span aria-hidden="true">▷</span> Guarda il movimento</button
+            ><button id="now" class="quiet-button" hidden>Adesso</button>
+            <p id="time-label"></p>
+          </div>
+          <div class="footnote" hidden>
+            <span id="caution"
+              ></span
+            >
+          </div>
+          <nav class="destination-nav" aria-label="Esplora l’universo">
+            <button id="nav-galaxy" aria-current="page">
+              <svg viewBox="0 0 32 32" aria-hidden="true" class="galaxy-icon"><path d="M18 14c6-6 1-12-6-7C3 12 2 25 13 26c10 2 19-11 14-17M14 18c-6 6-1 12 6 7 9-5 10-18-1-19C9 4 0 17 5 24M18 14c-2-2-7 3-4 4s7-3 4-4Z"/></svg>
+              <span>Galassia</span>
+            </button>
+            <button id="nav-sky">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="m5 23 7-14 9 10 6-14"/><circle cx="5" cy="23" r="2"/><circle cx="12" cy="9" r="2"/><circle cx="21" cy="19" r="2"/><circle cx="27" cy="5" r="2"/></svg>
+              <span>Il cielo</span>
+            </button>
+            <button id="nav-binary">
+              <svg viewBox="0 0 32 32" aria-hidden="true" class="star-icon"><path d="m16 2 4.1 9 9.9 1-7.4 6.7 2.1 9.8-8.7-5-8.7 5 2.1-9.8L2 12l9.9-1Z"/></svg>
+              <span>La vostra stella</span>
+            </button>
+          </nav>
+        </div>
+      </main>
+    </div>
+    <dialog id="info-dialog">
+      <button id="close-dialog" class="icon-button close" aria-label="Chiudi">
+        ×
+      </button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <div
+      id="announcement"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <noscript
+      ><p>
+        Attiva JavaScript per esplorare la mappa. Silvestrino e Chérie è un
+        sistema binario nella Via Lattea, a circa mille anni luce dal Sole.
+      </p></noscript
+    >
+  </body>
+</html>
